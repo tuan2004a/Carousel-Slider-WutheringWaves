@@ -1,0 +1,18 @@
+{
+    "characters": [
+		{
+			"id": 1,
+			"name": "Jinhsi",
+			"image": "/img/Jinhsi.png",
+			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 2,
+			"name": "Jinhsi",
+			"image": "/img/Jinhsi.png",
+			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		}
+	]
+}
