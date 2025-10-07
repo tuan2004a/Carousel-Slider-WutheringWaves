@@ -51,12 +51,9 @@ const CarouselSlider = () => {
 							style={{
 								transform: `translateX(${translateX}px) scale(${scale}) rotateY(${rotateY}deg)`,
 								zIndex,
-								// opacity: 1 - Math.abs(position) * 0.3,
 							}}
 						>
-							<div className="">
-								<Card items={resonator} isCenter={position === 0} />
-							</div>
+							<Card items={resonator} isCenter={position === 0} />
 						</div>
 					);
 				})}

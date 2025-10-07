@@ -17,7 +17,7 @@ const Card: FC<CardProps> = ({ items, isCenter }) => {
 
 			{/* character image z-40*/}
 			<div className="character transform-none pointer-events-none">
-				<img className={`${isCenter ? "translate-y-13" : "object-cover object-center translate-y-25"} absolute !opacity-100 !z-40  -translate-x-1 w-full scale-175`} src={items.image || undefined} alt="" />
+				<img className={`${isCenter ? "" : "object-cover object-center translate-y-25"} ${items.name} absolute !opacity-100 !z-40  -translate-x-1 w-full scale-175`} src={items.image || undefined} alt="" />
 			</div>
 
 			<div
@@ -28,8 +28,8 @@ const Card: FC<CardProps> = ({ items, isCenter }) => {
 			/>
 
 			<div>
-				<h1 className={`absolute bottom-3.5 left-1/2 -translate-x-1/2 z-100 text-[30px] font-bold inline-block ${items.textColor}`}>{items.name}</h1>
-				<img className="absolute transition-none bottom-[4px] left-1/2 -translate-x-1/2 opacity-30 z-90 scale-150 w-23 object-cover object-center" src="/img/logo.png" alt="" />
+				<h1 className={`absolute bottom-3.5 left-1/2 -translate-x-1/2 z-100 text-[27px] font-bold inline-block ${items.textColor}`}>{items.name}</h1>
+				<img className="absolute transition-none bottom-[4px] left-1/2 -translate-x-1/2 opacity-50 z-90 scale-150 w-23 object-cover object-center" src="/img/logo.png" alt="" />
 			</div>
 		</div>
 	);

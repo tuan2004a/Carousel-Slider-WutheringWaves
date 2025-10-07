@@ -3,29 +3,29 @@
 		{
 			"id": 1,
 			"name": "Jinhsi",
-			"image": "/img/Jinhsi.png",
+			"image": "/img/Resonators/Jinhsi.png",
 			"bgColor": "bg-linear-to-b from-[#48a0a8] to-[#e3e1e1]",
 			"textColor": "text-transparent bg-linear-to-t from-[#48a0a8] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 2,
 			"name": "Augusta",
-			"image": "",
+			"image": "/img/Resonators/Augusta.png",
 			"bgColor": "bg-linear-to-b from-[#de4a27] to-[#f4f0ee]",
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 3,
 			"name": "Cantarella",
-			"image": "",
+			"image": "/img/Resonators/Cantarella.png",
 			"bgColor": "bg-linear-to-b from-[#5a53be] to-[#7475cf]",
 			"textColor": "text-transparent bg-linear-to-t from-[#5a53be] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 4,
 			"name": "Ciaccona",
-			"image": "",
-			"bgColor": "bg-linear-to-b from-[#699d9d] to-[#eb6f7c]",
+			"image": "/img/Resonators/Ciaccona.png",
+			"bgColor": "bg-linear-to-b from-[#699d9d] to-[#eb6f7c] ",
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
 		},
 		{
