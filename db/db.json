@@ -1,18 +1,95 @@
 {
-    "characters": [
+    "resonators": [
 		{
 			"id": 1,
 			"name": "Jinhsi",
 			"image": "/img/Jinhsi.png",
+			"bgColor": "bg-linear-to-b from-[#48a0a8] to-[#e3e1e1]",
+			"textColor": "text-transparent bg-linear-to-t from-[#48a0a8] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 2,
+			"name": "Augusta",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#de4a27] to-[#f4f0ee]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 3,
+			"name": "Cantarella",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#5a53be] to-[#7475cf]",
+			"textColor": "text-transparent bg-linear-to-t from-[#5a53be] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 4,
+			"name": "Ciaccona",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#699d9d] to-[#eb6f7c]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 5,
+			"name": "Changli",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#da6c58] to-[#e4dcd7]",
+			"textColor": "text-transparent bg-linear-to-t from-[#da6c58] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 6,
+			"name": "Iuno",
+			"image": "",
 			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
 		},
 		{
-			"id": 2,
-			"name": "Jinhsi",
-			"image": "/img/Jinhsi.png",
+			"id": 7,
+			"name": "Jianxin",
+			"image": "",
 			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 8,
+			"name": "Lupa",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 9,
+			"name": "Phrolova",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 10,
+			"name": "Shorekeeper",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#223865] to-[#5c8fb5]",
+			"textColor": "text-transparent bg-linear-to-t from-[#5c8fb5] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 11,
+			"name": "Yinlin",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#ba464b] to-[#652a32]",
+			"textColor": "text-transparent bg-linear-to-t from-[#ba464b] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 12,
+			"name": "Zani",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+		},
+		{
+			"id": 13,
+			"name": "Zhezhi",
+			"image": "",
+			"bgColor": "bg-linear-to-b from-[#7eacb4] to-[#a58483]",
+			"textColor": "text-transparent bg-linear-to-t from-[#7eacb4] from-25% to-white to-50% bg-clip-text"
 		}
 	]
 }

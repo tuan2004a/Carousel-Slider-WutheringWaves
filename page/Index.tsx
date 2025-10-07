@@ -1,24 +1,31 @@
 "use client";
 
 import BackGround from "@/components/BackGround";
-import Card from "@/components/CarouselSlider/Card";
+import Carousel3D from "@/components/CarouselSlider/Carousel3D";
+import CarouselSlider from "@/components/CarouselSlider/CarouselSlider";
+import { useCharacterContext, CharacterProvider } from "@/context/CharacterContext";
 
 import React from "react";
-// import TeamCarousel from "lightswind/components/team-carousel";
 
 
 const IndexContent = () => {
+	
 	return (
 		<div className="h-screen max-w-full overflow-hidden">
 			<BackGround />
-			<section className="size-full flex-center">
-				<Card />
+			<section className="size-full ">
+				{/* <Carousel3D /> */}
+				<CarouselSlider/>
 			</section>
 		</div>
 	);
 };
 
 const Index = () => {
-	return <IndexContent />;
+	return (
+		<CharacterProvider>
+			<IndexContent />
+		</CharacterProvider>
+	);
 };
 export default Index;

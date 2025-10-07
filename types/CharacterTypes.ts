@@ -1,9 +1,9 @@
 //types/charactertypes.ts
 
-export interface Character {
-    id: number;
-    name: string;
-    type: string;
-    description: string;
-    image: string;
+export interface Resonators {
+	id: number;
+	name: string;
+	textColor: string;
+	bgColor: string;
+	image: string;
 }
