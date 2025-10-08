@@ -28,8 +28,7 @@ Carousel Slider Resonators rình diễn các nhân vật (Resonators) trong Wuth
    ```bash
     pnpm run json
    ```
-    Dữ liệu nhân vật được lưu tại thư mục db/db.json
-    Sau khi chạy thành công, server sẽ hoạt động tại địa chỉ: http://localhost:3001/resonators
+    JSON Server will run at: http://localhost:3001
 
 4. **Chạy ứng dụng Next.js:**
    ```bash
