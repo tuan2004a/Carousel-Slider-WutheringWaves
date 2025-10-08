@@ -40,7 +40,7 @@ body {
         @apply  -translate-x-10
     }
     .Changli{
-        @apply translate-y-5
+        @apply translate-y-5 -translate-x-7
     }
     .Iuno{
         @apply translate-y-10
@@ -55,12 +55,35 @@ body {
         @apply -translate-x-25
     }
     .Yinlin{
-        @apply scale-150 
+        @apply scale-130 -translate-y-5
     }
     .Zani{
-        @apply -translate-x-15 translate-y-0
+        @apply scale-150 -translate-x-6 translate-y-0
     }
     .Zhezhi{
-        @apply -translate-y-20
+        @apply scale-150 -translate-y-20
     }
+}
+
+.Jinhsi{
+    @apply -translate-x-1
+}
+.Cantarella{
+    @apply -translate-x-7
+}
+
+.Ciaccona{
+    @apply -translate-x-10
+}
+.Changli{
+    @apply -translate-x-7
+}
+.Shorekeeper{
+    @apply -translate-x-25
+}
+.Zani{
+    @apply scale-150 -translate-x-6
+}
+.Zhezhi{
+    @apply scale-150 translate-y-0
 }
