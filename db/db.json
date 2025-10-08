@@ -39,29 +39,29 @@
 			"id": 6,
 			"name": "Iuno",
 			"image": "/img/Resonators/Iuno.png",
-			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
-			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#38486f] to-[#a3b9d8]",
+			"textColor": "text-transparent bg-linear-to-t from-[#4971b2] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 7,
 			"name": "Jianxin",
 			"image": "/img/Resonators/Jianxin.png",
-			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
-			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#a5ccc2] to-[#f6f4f0]",
+			"textColor": "text-transparent bg-linear-to-t from-[#a5ccc2] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 8,
 			"name": "Lupa",
 			"image": "/img/Resonators/Lupa.png",
-			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
-			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#de93a0] to-[#cd4f56]",
+			"textColor": "text-transparent bg-linear-to-t from-[#de93a0] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 9,
 			"name": "Phrolova",
 			"image": "/img/Resonators/Phrolova.png",
-			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
-			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#b02b35] to-[#ee344c]",
+			"textColor": "text-transparent bg-linear-to-t from-[#b02b35] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 10,
@@ -81,15 +81,15 @@
 			"id": 12,
 			"name": "Zani",
 			"image": "/img/Resonators/Zani.png",
-			"bgColor": "bg-linear-to-b from-[#90b9bc] to-[#c5cad0]",
-			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#5c626e] to-[#cacdd7]",
+			"textColor": "text-transparent bg-linear-to-t from-[#5c626e] from-25% to-white to-50% bg-clip-text"
 		},
 		{
 			"id": 13,
 			"name": "Zhezhi",
 			"image": "/img/Resonators/Zhezhi.png",
-			"bgColor": "bg-linear-to-b from-[#7eacb4] to-[#a58483]",
-			"textColor": "text-transparent bg-linear-to-t from-[#7eacb4] from-25% to-white to-50% bg-clip-text"
+			"bgColor": "bg-linear-to-b from-[#74b4bc] to-[#a58483]",
+			"textColor": "text-transparent bg-linear-to-t from-[#74b4bc] from-25% to-white to-50% bg-clip-text"
 		}
 	]
 }
