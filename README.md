@@ -1,6 +1,6 @@
 # Carousel Slider Resonators - Wuthering Waves
 
-Một trang web hiển thị dàn Resonators của Wuthering Waves trong Carousel Slider đầy cuốn hút – đưa trải nghiệm khám phá nhân vật lên một tầm cao mới.
+Carousel Slider Resonators rình diễn các nhân vật (Resonators) trong Wuthering Waves thiển thị ứng mượt qua từng nhân vật
 
 ## 💻 Công nghệ sử dụng
 - **Next.js**: Framework React hiện đại cho phát triển web.
@@ -9,7 +9,7 @@ Một trang web hiển thị dàn Resonators của Wuthering Waves trong Carouse
 
 ## ⚙️ Yêu cầu hệ thống
 - Node.js >= 16.x
-- npm, pnpm, yarn hoặc bun
+- pnpm ≥ 8.x
 
 ## 🚀 Cài đặt và chạy
 
@@ -21,26 +21,19 @@ Một trang web hiển thị dàn Resonators của Wuthering Waves trong Carouse
 
 2. **Cài đặt dependencies:**
    ```bash
-   npm install
-   # hoặc
-   pnpm install
-   # hoặc
-   yarn install
+    pnpm install
    ```
 
 3. **Khởi động JSON Server:**
    ```bash
-   npx json-server --watch db/db.json --port 3001
+    pnpm run json
    ```
-   (Dữ liệu nhân vật được lưu tại `db/db.json`)
+    Dữ liệu nhân vật được lưu tại thư mục db/db.json
+    Sau khi chạy thành công, server sẽ hoạt động tại địa chỉ: http://localhost:3001/resonators
 
 4. **Chạy ứng dụng Next.js:**
    ```bash
-   npm run dev
-   # hoặc
-   pnpm dev
-   # hoặc
-   yarn dev
+    pnpm dev
    ```
 
 5. **Truy cập ứng dụng:**
