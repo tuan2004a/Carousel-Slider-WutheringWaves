@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carousel Slider Resonators - Wuthering Waves
 
-## Getting Started
+Một trang web hiển thị dàn Resonators của Wuthering Waves trong Carousel Slider đầy cuốn hút – đưa trải nghiệm khám phá nhân vật lên một tầm cao mới.
 
-First, run the development server:
+## 💻 Công nghệ sử dụng
+- **Next.js**: Framework React hiện đại cho phát triển web.
+- **JSON Server**: API giả lập để lưu trữ và truy xuất dữ liệu nhân vật.
+- **TailwindCSS**: Thư viện CSS tiện lợi cho thiết kế giao diện hiện đại, responsive.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Yêu cầu hệ thống
+- Node.js >= 16.x
+- npm, pnpm, yarn hoặc bun
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Cài đặt và chạy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone dự án:**
+   ```bash
+   git clone <repo-url>
+   cd Carousel-Slider-DuetNightAbyss
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Cài đặt dependencies:**
+   ```bash
+   npm install
+   # hoặc
+   pnpm install
+   # hoặc
+   yarn install
+   ```
 
-## Learn More
+3. **Khởi động JSON Server:**
+   ```bash
+   npx json-server --watch db/db.json --port 3001
+   ```
+   (Dữ liệu nhân vật được lưu tại `db/db.json`)
 
-To learn more about Next.js, take a look at the following resources:
+4. **Chạy ứng dụng Next.js:**
+   ```bash
+   npm run dev
+   # hoặc
+   pnpm dev
+   # hoặc
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Truy cập ứng dụng:**
+   Mở trình duyệt và truy cập [http://localhost:3000](http://localhost:3000) để xem Carousel Slider các nhân vật Resonators.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Tham khảo
+- [Next.js Documentation](https://nextjs.org/docs)
+- [JSON Server](https://github.com/typicode/json-server)
+- [TailwindCSS](https://tailwindcss.com/docs)
