@@ -39,4 +39,28 @@ body {
     .Ciaccona{
         @apply  -translate-x-10
     }
+    .Changli{
+        @apply translate-y-5
+    }
+    .Iuno{
+        @apply translate-y-10
+    }
+    .Lupa{
+        @apply scale-185 translate-y-7
+    }
+    .Phrolova{
+        @apply translate-y-15
+    }
+    .Shorekeeper{
+        @apply -translate-x-25
+    }
+    .Yinlin{
+        @apply scale-150 
+    }
+    .Zani{
+        @apply -translate-x-15 translate-y-0
+    }
+    .Zhezhi{
+        @apply -translate-y-20
+    }
 }

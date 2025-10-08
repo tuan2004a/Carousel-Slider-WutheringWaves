@@ -20,7 +20,7 @@ const CarouselSlider = () => {
 
     const getVisibleItems = () => {
 		const result = [];
-		for (let i = -2; i <= 2; i++) {
+		for (let i = -1; i <= 1; i++) {
 			const index = (indexActive + i + resonatorsData.length) % resonatorsData.length;
 			result.push({
 				...resonatorsData[index],
@@ -37,11 +37,11 @@ const CarouselSlider = () => {
 					const { position } = resonator;
 
 					// hiệu ứng vị trí 3D
-					const baseX = 200; // giảm từ 220 xuống 200
+					const baseX = 250; // giảm từ 220 xuống 200
 					const farX = 150; // dùng cho ±2 (gần hơn)
 					const translateX = Math.abs(position) === 2 ? position * farX : position * baseX;
 					const rotateY = position * -20;
-					const scale = position === 0 ? 1 : 0.85 - Math.abs(position) * 0.05;
+					const scale = position === 0 ? 1 : 0.8;
 					const zIndex = 10 - Math.abs(position);
 
 					return (
