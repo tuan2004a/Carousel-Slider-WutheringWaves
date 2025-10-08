@@ -42,20 +42,52 @@ Carousel Slider Resonators showcases the characters (Resonators) from Wuthering 
 
 ## 🗂️ Project Structure
 ```
-Carousel-Slider-DuetNightAbyss/
-├─── public/
-├─── src/
-│   ├─── app/
-│   ├─── components/
-│   ├─── styles/
-├─── .gitignore
-├─── jsconfig.json
-├─── next.config.js
-├─── package-lock.json
-├─── package.json
-├─── pnpm-lock.yaml
-├─── README.md
-├─── tailwind.config.js
+CAROUSEL-SLIDER-DUETNIGHTABYSS/
+├── .next/                      # Next.js build output (auto-generated)
+├── app/                        # Main application entry (App Router)
+│   ├── favicon.ico
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # Root layout for all pages
+│   └── page.tsx                # Main page component
+│
+├── components/                 # Reusable UI components
+│   ├── CarouselSlider/         # Core carousel slider component
+│   └── common/                 # Shared UI elements (buttons, backgrounds)
+│       ├── BtnArrow.tsx
+│       └── BackGround.tsx
+│
+├── config/                     # App configuration files
+│   └── axiosInstance.ts        # Axios setup for API requests
+│
+├── context/                    # React Context for global state
+│   └── CharacterContext.tsx
+│
+├── db/                         # Local mock database
+│   └── db.json                 # Character data for JSON Server
+│
+├── public/                     # Static assets (images, icons, etc.)
+│
+├── service/                    # API and data fetching logic
+│   └── CharacterService.ts
+│
+├── store/                      # State management (e.g., Zustand, Redux)
+│   └── slice/
+│       └── CharacterSlice.ts
+│
+├── types/                      # TypeScript interfaces and types
+│   └── CharacterTypes.ts
+│
+├── .gitignore
+├── eslint.config.mjs
+├── lightswind.d.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+
 ```
 
 ## 📚 References
