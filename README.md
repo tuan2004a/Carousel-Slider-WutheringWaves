@@ -1,46 +1,64 @@
 # Carousel Slider Resonators - Wuthering Waves
 
-Carousel Slider Resonators rình diễn các nhân vật (Resonators) trong Wuthering Waves thiển thị ứng mượt qua từng nhân vật
+Carousel Slider Resonators showcases the characters (Resonators) from Wuthering Waves, presented in a smooth and visually appealing carousel animation.
 
-## 💻 Công nghệ sử dụng
-- **Next.js**: Framework React hiện đại cho phát triển web.
-- **JSON Server**: API giả lập để lưu trữ và truy xuất dữ liệu nhân vật.
-- **TailwindCSS**: Thư viện CSS tiện lợi cho thiết kế giao diện hiện đại, responsive.
+## 💻 Technologies Used
+- **Next.js**: A React framework for server-rendered applications.
+- **JSON Server**: A simple way to create a mock REST API.
+- **TailwindCSS**: A utility-first CSS framework for building responsive, modern UIs.
 
-## ⚙️ Yêu cầu hệ thống
+## ⚙️ System Requirements
 - Node.js >= 16.x
 - pnpm ≥ 8.x
 
-## 🚀 Cài đặt và chạy
+## 🚀 Installation and Usage
 
-1. **Clone dự án:**
+1. **Clone the project:**
    ```bash
    git clone <repo-url>
    cd Carousel-Slider-DuetNightAbyss
    ```
 
-2. **Cài đặt dependencies:**
+2. **Install dependencies:**
    ```bash
     pnpm install
    ```
 
-3. **Khởi động JSON Server:**
+3. **Start JSON Server:**
    ```bash
     pnpm run json
    ```
-    JSON Server will run at: http://localhost:3001
+    JSON Server will run at: [http://localhost:3001]
 
-4. **Chạy ứng dụng Next.js:**
+4. **Run the Next.js:**
    ```bash
     pnpm dev
    ```
 
-5. **Truy cập ứng dụng:**
-   Mở trình duyệt và truy cập [http://localhost:3000](http://localhost:3000) để xem Carousel Slider các nhân vật Resonators.
+5. **Access the application:**
+   Open your web browser and navigate to: [http://localhost:3000]
 
 ---
 
-## 📚 Tham khảo
+## 🗂️ Project Structure
+```
+Carousel-Slider-DuetNightAbyss/
+├─── public/
+├─── src/
+│   ├─── app/
+│   ├─── components/
+│   ├─── styles/
+├─── .gitignore
+├─── jsconfig.json
+├─── next.config.js
+├─── package-lock.json
+├─── package.json
+├─── pnpm-lock.yaml
+├─── README.md
+├─── tailwind.config.js
+```
+
+## 📚 References
 - [Next.js Documentation](https://nextjs.org/docs)
 - [JSON Server](https://github.com/typicode/json-server)
 - [TailwindCSS](https://tailwindcss.com/docs)
