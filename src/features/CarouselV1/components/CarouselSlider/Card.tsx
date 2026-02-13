@@ -1,4 +1,4 @@
-import type { Resonators } from "@features/types/CharacterTypes";
+import type { Resonators } from "@/features/CarouselV1/types/CharacterTypes";
 
 interface CardProps {
 	item?: Resonators | undefined;
