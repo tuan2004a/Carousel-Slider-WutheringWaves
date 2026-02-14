@@ -10,7 +10,7 @@ const OwlCarousel = () => {
 	const { active, handleNext, handlePrev, itemRefs } = useOwlCarousel(data);
 
 	return (
-		<div className="flex items-center justify-center size-full relative overflow-hidden">
+		<div className="flex items-center justify-center size-full relative overflow-hidden ">
 			{data?.map((item, index) => (
 				<div
 					key={item.id}

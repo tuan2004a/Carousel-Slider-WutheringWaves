@@ -1,2 +1,45 @@
 @import "tailwindcss";
 
+*{
+	transition: all 0.25s ease-in-out;
+}
+
+.Jinhsi .charName {
+	@apply -translate-y-7 scale-110;
+}
+.Augusta .charName {
+	@apply -translate-y-7 scale-110;
+}
+.Cantarella .charName {
+	@apply -translate-y-8 -translate-x-10 scale-110;
+}
+.Ciaccona .charName {
+	@apply -translate-y-15 -translate-x-10 scale-110;
+}
+.Changli .charName {
+	@apply -translate-y-9 -translate-x-5 scale-110;
+}
+.Iuno .charName {
+	@apply -translate-y-12 translate-x-1 scale-110;
+}
+.Jianxin .charName {
+	@apply -translate-y-16 scale-100;
+}
+.Lupa .charName {
+	@apply -translate-y-10 scale-120;
+}
+.Phrolova .charName {
+	@apply -translate-y-6 scale-110;
+}
+.Shorekeeper .charName {
+	@apply -translate-y-20 -translate-x-20 scale-100;
+}
+.Yinlin .charName {
+	@apply -translate-y-15 scale-90;
+}
+.Zani .charName {
+	@apply -translate-y-12 -translate-x-9 scale-110;
+}
+.Zhezhi .charName {
+	@apply -translate-y-20 -translate-x-6 scale-90 ;
+}
