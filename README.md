@@ -74,7 +74,7 @@ pnpm dev
 
 > **Lưu ý**: Tổ chức file/thư mục theo Feature-based architecture, đây là mô tả khái quát:
 
-```bash
+```yaml
 src/
 ├── config/  
 ├── db/                         # JSON Server sử dụng làm “database”
