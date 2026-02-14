@@ -74,7 +74,7 @@ pnpm dev
 
 > **Lưu ý**: Tổ chức file/thư mục theo Feature-based architecture, đây là mô tả khái quát:
 
-```yaml
+```
 src/
 ├── config/  
 ├── db/                         # JSON Server sử dụng làm “database”
@@ -113,7 +113,7 @@ Dự án này được phát hành dưới MIT License. Bạn có thể tự do 
 
 * Author: Trantuan07a
 * Email: dev.lamtuan@gmail.com
-* GitHub: Trantuan07a
+* GitHub: [@Trantuan07a](https://github.com/Trantuan07a)
 
 ---
 
