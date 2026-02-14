@@ -1,6 +1,4 @@
-<div align="center">
 # Carousel Slider WutheringWaves
-</div>
 
 **Carousel-slider-ww là một dự án demo Carousel/Slider lấy cảm hứng từ Wuthering Waves, được xây dựng nhằm minh họa animation mượt mà, hiệu ứng chuyển slide tự nhiên và cách trình bày nhân vật trực quan.
 
@@ -76,6 +74,7 @@ pnpm dev
 
 > **Lưu ý**: Tổ chức file/thư mục theo Feature-based architecture, đây là mô tả khái quát:
 
+```bash
 src/
 ├── config/  
 ├── db/                         # JSON Server sử dụng làm “database”
@@ -87,6 +86,7 @@ src/
     │   ├──shared/              # Nơi dùng chung các components hoặc file
     │   └──types/               # Cấu hình dùng chung trong [modules]
     └── ...                     # Các modules khác
+```
 ---
 
 ## Lưu ý khi phát triển
