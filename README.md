@@ -1,13 +1,8 @@
-## Giới thiệu
+<div align="center">
+# Carousel Slider WutheringWaves
+</div>
 
-**carousel-slider-ww** là một dự án demo Carousel / Slider xây dựng bằng **React + TypeScript + Vite**, kết hợp với:
-
-- **Axios** để gọi API, làm việc với dữ liệu **JSON**
-- **@tanstack/react-query** để quản lý trạng thái bất đồng bộ (fetch/cache dữ liệu)
-- **TailwindCSS** để xây giao diện nhanh, gọn, dễ tùy chỉnh
-- **JSON Server** (script `npm run json`) để mô phỏng API backend từ file `db.json`
-
-Mục tiêu của project là minh họa cách xây dựng một gallery / slider hiện đại, mượt mà, có hiệu ứng cuộn ngang (focus gallery) cùng với luồng dữ liệu tách biệt, dễ mở rộng.
+**Carousel-slider-ww là một dự án demo Carousel/Slider lấy cảm hứng từ Wuthering Waves, được xây dựng nhằm minh họa animation mượt mà, hiệu ứng chuyển slide tự nhiên và cách trình bày nhân vật trực quan.
 
 ---
 
@@ -24,13 +19,12 @@ Mục tiêu của project là minh họa cách xây dựng một gallery / slide
 
 ## Yêu cầu môi trường
 
-- **Node.js**: Khuyến nghị >= 18.x
-- **pnpm** (khuyến nghị) hoặc công cụ quản lý package tương đương
-
-Kiểm tra phiên bản:
-
+- **Node.js**: Khuyến nghị >= 20.x
 ```bash
 node -v
+```
+- **pnpm**: Khuyến nghị >= 10.x
+```bash
 pnpm -v
 ```
 
@@ -53,44 +47,18 @@ pnpm install
 
 ### 3. Chạy JSON Server (mock API)
 
-Trong `package.json` đã cấu hình script:
-
-- **`pnpm json`**: chạy JSON Server ở port `3001` và theo dõi file `./src/db/db.json`.
-
-Chạy:
-
 ```bash
 pnpm json
 ```
 
-> **Lưu ý**: Nên chạy JSON Server trong một terminal riêng để không chặn dev server của Vite.
+> **Lưu ý**: Trong `package.json` đã cấu hình script và chạy JSON Server ở port `3001`.
 
 ### 4. Chạy môi trường phát triển
 
 ```bash
 pnpm dev
 ```
-
-Theo mặc định, Vite sẽ chạy ở `http://localhost:5173` (có thể khác một chút, xem trong terminal).
-
-### 5. Build & preview bản production
-
-- **Build**:
-
-```bash
-pnpm build
-```
-
-Script này gồm:
-
-- `tsc -b`: build TypeScript
-- `vite build`: build bundle production
-
-- **Preview** (serve build):
-
-```bash
-pnpm preview
-```
+> **Lưu ý**: Mặc định Vite sẽ chạy ở `http://localhost:5173`
 
 ---
 
@@ -104,33 +72,21 @@ pnpm preview
 
 ---
 
-## Cấu trúc thư mục (mô tả cơ bản)
+## Cấu trúc thư mục
 
-> Lưu ý: Tên file/thư mục chi tiết có thể thay đổi tùy cách bạn tổ chức, đây là mô tả khái quát.
+> **Lưu ý**: Tổ chức file/thư mục theo Feature-based architecture, đây là mô tả khái quát:
 
-- **`src/`**
-  - **`main.tsx` / `App.tsx`**: Entry chính của ứng dụng React.
-  - **`components/`**: Chứa các component UI (Carousel, Slider item, Navigation, v.v.).
-  - **`hooks/`**: Các custom hook (ví dụ: hook dùng `react-query` để fetch data).
-  - **`services/`**: Nơi cấu hình instance Axios, các hàm gọi API.
-  - **`db/db.json`**: File dữ liệu JSON được JSON Server sử dụng làm “database”.
-  - **`index.css`**: Import Tailwind, custom CSS cho animation/hiệu ứng (ví dụ class `focus-gallery`, `.items`, animation `pop-in`,...).
-- **`public/`**: Static assets (hình ảnh dùng cho carousel, icon, ...).
-- **`vite.config.ts`**: Cấu hình Vite.
-
----
-
-## Luồng dữ liệu & cách hoạt động (tóm tắt)
-
-- **JSON Server** đọc dữ liệu từ `src/db/db.json` và expose các endpoint REST (ví dụ: `/slides`, `/images`, ...).
-- **Axios** được cấu hình (baseURL, interceptor nếu cần) để gọi dữ liệu từ JSON Server.
-- **@tanstack/react-query**
-  - Dùng `useQuery` để fetch dữ liệu (danh sách slide, hình ảnh,...).
-  - Tự động quản lý trạng thái **loading**, **error**, **cache**, **refetch**.
-- **UI Carousel/Slider**
-  - Sử dụng TailwindCSS kết hợp CSS custom (`focus-gallery`, animation `pop-in`) để tạo hiệu ứng cuộn ngang, focus ở giữa.
-  - Mỗi item/slide được render từ dữ liệu fetch được.
-
+src/
+├── config/  
+├── db/                         # JSON Server sử dụng làm “database”
+└── features/                   # Feature-based architecture
+    └── [modules]               # Các feature modules (ví dụ: carousel, character, v.v.)
+    │   ├── components/         # Chứa các component UI (Carousel, Slider item, Navigation, v.v.).
+    │   ├── hooks/              # Custom hook dễ tái sử dụng
+    │   ├── queries/            # Các query hooks và functions cho React Query
+    │   ├──shared/              # Nơi dùng chung các components hoặc file
+    │   └──types/               # Cấu hình dùng chung trong [modules]
+    └── ...                     # Các modules khác
 ---
 
 ## Lưu ý khi phát triển
@@ -149,20 +105,20 @@ pnpm preview
 
 ---
 
-## Hướng dẫn mở rộng
+### License
+Dự án này được phát hành dưới MIT License. Bạn có thể tự do sử dụng, chỉnh sửa và chia sẻ, nhưng không được sử dụng cho mục đích thương mại dưới bất kỳ hình thức nào.
 
-- **Thêm endpoint mới**:
-  - Cập nhật `src/db/db.json` với cấu trúc dữ liệu mới.
-  - Tạo thêm service Axios + hook `react-query` để fetch.
-  - Xây UI component hiển thị dữ liệu.
-- **Thêm tính năng cho Carousel**:
-  - Auto-play, pagination, thumbnail preview.
-  - Responsive: điều chỉnh số lượng item hiển thị theo kích thước màn hình.
-  - Thêm animation, transition phức tạp hơn (Framer Motion, v.v.).
+---
+## Contact
+
+* Author: Trantuan07a
+* Email: dev.lamtuan@gmail.com
+* GitHub: Trantuan07a
 
 ---
 
-## License
+<div align="center">
 
-Tùy mục đích sử dụng, bạn có thể giữ project ở trạng thái private hoặc bổ sung license (MIT, v.v.) trong tương lai.
+**✨ Được tạo nên với niềm đam mê dành cho cộng đồng Wuthering Waves ✨**
 
+</div> 
