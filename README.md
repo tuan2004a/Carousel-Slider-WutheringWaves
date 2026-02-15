@@ -4,6 +4,19 @@
 
 ---
 
+## Mục lục
+
+- [Công nghệ sử dụng](#công-nghệ-sử-dụng)
+- [Yêu cầu môi trường](#yêu-cầu-môi-trường)
+- [Cài đặt & chạy dự án](#cài-đặt--chạy-dự-án)
+- [Các script trong `package.json`](#các-script-trong-packagejson)
+- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+- [Video Demo](#video-demo)
+- [Lưu ý khi phát triển](#lưu-ý-khi-phát-triển)
+- [License](#license)
+- [Contact](#contact)
+---
+
 ## Công nghệ sử dụng
 
 - **React 19 + TypeScript**: Xây UI dạng component, type-safe, dễ bảo trì.
@@ -72,14 +85,14 @@ pnpm dev
 
 ## Cấu trúc thư mục
 
-> **Lưu ý**: Tổ chức file/thư mục theo Feature-based architecture, đây là mô tả khái quát:
+> **Lưu ý**: Tổ chức file/folder theo Feature-based architecture, đây là mô tả khái quát:
 
 ```
 src/
 ├── config/  
 ├── db/                         # JSON Server sử dụng làm “database”
 └── features/                   # Feature-based architecture
-    └── [modules]               # Các feature modules (ví dụ: carousel, character, v.v.)
+    ├── [modules]               # Các feature modules (ví dụ: carousel, character, v.v.)
     │   ├── components/         # Chứa các component UI (Carousel, Slider item, Navigation, v.v.).
     │   ├── hooks/              # Custom hook dễ tái sử dụng
     │   ├── queries/            # Các query hooks và functions cho React Query
@@ -87,6 +100,9 @@ src/
     │   └──types/               # Cấu hình dùng chung trong [modules]
     └── ...                     # Các modules khác
 ```
+---
+## Video Demo
+
 ---
 
 ## Lưu ý khi phát triển

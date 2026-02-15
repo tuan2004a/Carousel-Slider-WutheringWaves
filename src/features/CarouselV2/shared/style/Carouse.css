@@ -1,45 +1,86 @@
 @import "tailwindcss";
 
-*{
+* {
 	transition: all 0.25s ease-in-out;
 }
 
 .Jinhsi .charName {
-	@apply -translate-y-7 scale-110;
+	@apply translate-y-0 scale-90;
 }
 .Augusta .charName {
-	@apply -translate-y-7 scale-110;
+	@apply translate-y-0 scale-90;
 }
 .Cantarella .charName {
-	@apply -translate-y-8 -translate-x-10 scale-110;
+	@apply translate-y-0 -translate-x-8 scale-90;
 }
 .Ciaccona .charName {
-	@apply -translate-y-15 -translate-x-10 scale-110;
+	@apply translate-y-0 -translate-x-10 scale-90;
 }
 .Changli .charName {
-	@apply -translate-y-9 -translate-x-5 scale-110;
+	@apply translate-y-0 -translate-x-5 scale-95;
 }
 .Iuno .charName {
-	@apply -translate-y-12 translate-x-1 scale-110;
+	@apply translate-y-7 translate-x-5 scale-110;
 }
 .Jianxin .charName {
-	@apply -translate-y-16 scale-100;
+	@apply translate-y-0 scale-90;
 }
 .Lupa .charName {
-	@apply -translate-y-10 scale-120;
+	@apply -translate-y-3 scale-110;
 }
 .Phrolova .charName {
-	@apply -translate-y-6 scale-110;
+	@apply translate-y-5 scale-90;
 }
 .Shorekeeper .charName {
-	@apply -translate-y-20 -translate-x-20 scale-100;
+	@apply -translate-y-3 -translate-x-17 scale-90;
 }
 .Yinlin .charName {
-	@apply -translate-y-15 scale-90;
+	@apply translate-y-0 scale-75;
 }
 .Zani .charName {
-	@apply -translate-y-12 -translate-x-9 scale-110;
+	@apply translate-y-5 -translate-x-5 scale-95;
 }
 .Zhezhi .charName {
-	@apply -translate-y-20 -translate-x-6 scale-90 ;
+	@apply -translate-y-20 -translate-x-6 scale-90;
+}
+
+/* Active */
+.active.Jinhsi .charName {
+	@apply -translate-y-7 scale-110;
+}
+.active.Augusta .charName {
+	@apply -translate-y-7 scale-110;
+}
+.active.Cantarella .charName {
+	@apply -translate-y-8 -translate-x-10 scale-110;
+}
+.active.Ciaccona .charName {
+	@apply -translate-y-15 -translate-x-10 scale-110;
+}
+.active.Changli .charName {
+	@apply -translate-y-9 -translate-x-5 scale-110;
+}
+.active.Iuno .charName {
+	@apply -translate-y-12 translate-x-5 scale-110;
+}
+.active.Jianxin .charName {
+	@apply -translate-y-17 scale-105;
+}
+.active.Lupa .charName {
+	@apply -translate-y-16 scale-123;
+}
+.active.Phrolova .charName {
+	@apply -translate-y-6 scale-110;
+}
+.active.Shorekeeper .charName {
+	@apply -translate-y-20 -translate-x-20 scale-103;
+}
+.active.Yinlin .charName {
+	@apply -translate-y-15 scale-90;
+}
+.active.Zani .charName {
+	@apply -translate-y-12 -translate-x-9 scale-110;
+}
+.active.Zhezhi .charName {
+	@apply -translate-y-34 -translate-x-6 scale-95;
 }

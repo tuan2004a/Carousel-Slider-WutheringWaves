@@ -16,21 +16,22 @@ export function useOwlCarousel(data?: Resonators[]) {
             el.style.filter = "none";
             el.style.opacity = "1";
             el.style.overflow = "visible";
-            el.classList.add(String(data?.[index]?.name));
+            el.classList.add("active");
         } else if (index > active) {
             el.style.transform = `translateX(${250 * (index - active)}px) scale(${1 - 0.2 * (index - active)}) perspective(16px) rotateY(-1deg)`;
             el.style.zIndex = `${-index + active}`;
             el.style.filter = "brightness(0.5)";
             el.style.opacity = index - active > 2 ? "0" : "1";
             el.style.overflow = "hidden";
-            el.classList.remove(String(data?.[index]?.name));
+            el.classList.remove("active");
         } else {
             el.style.transform = `translateX(${-250 * (active - index)}px) scale(${1 - 0.2 * (active - index)}) perspective(16px) rotateY(1deg)`;
             el.style.zIndex = `${-index + active}`;
             el.style.filter = "brightness(0.5)";
             el.style.opacity = active - index > 2 ? "0" : "1";
             el.style.overflow = "hidden";
-            el.classList.remove(String(data?.[index]?.name));
+            el.classList.remove("active");
+
         }
         });
     }, [active, data]);

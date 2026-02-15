@@ -10,7 +10,7 @@ const OwlCarousel = () => {
 	const { active, handleNext, handlePrev, itemRefs } = useOwlCarousel(data);
 
 	return (
-		<div className="flex items-center justify-center size-full relative overflow-hidden ">
+		<div className="flex items-center justify-center size-full relative overflow-hidden z-50">
 			{data?.map((item, index) => (
 				<div
 					key={item.id}
@@ -18,7 +18,7 @@ const OwlCarousel = () => {
 						itemRefs.current[index] = el;
 					}}
 					style={{ transition: "all 0.5s ease" }}
-					className="absolute"
+					className={`absolute ${item?.name}`}
 				>
 					<Card item={item} />
 				</div>
