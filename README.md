@@ -103,7 +103,7 @@ src/
 ---
 ## Preview Video
 
-https://github.com/tuan2004a/Carousel-Slider-WutheringWaves/blob/main/public/carousel-slider-ww.mp4
+https://github.com/tuan2004a/Carousel-Slider-WutheringWaves/blob/61db1d08290e2fcfd6c26b32be71e5a427f687e0/public/img/carousel-slider-ww.mp4
 ---
 
 ## Lưu ý khi phát triển
