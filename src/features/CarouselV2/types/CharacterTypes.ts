@@ -7,6 +7,10 @@ export interface Resonators {
 	bgColor: string;
 	image: string;
 	class: string;
+	borderColor?: {
+		before?: string;
+		after?: string;
+	};
 }
 
 export interface CharacterProps{

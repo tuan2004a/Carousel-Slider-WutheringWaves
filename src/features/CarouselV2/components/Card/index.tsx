@@ -6,11 +6,11 @@ const Card = ({ item }: CharacterProps) => {
 	void React;
 	return (
 		<div
-			className={` item h-100 w-60 rounded-xl duration-250 transition-all ease-in-out relative`}
+			className={` item h-100 w-60 rounded-xl! duration-250 transition-all ease-in-out relative`}
 			style={
 				{
-					["--border-before"]: "#3b82f6",
-					["--border-after"]: "#ef4444",
+					["--border-before"]: `${item?.borderColor?.before}`,
+					["--border-after"]: `${item?.borderColor?.after}`,
 				} as React.CSSProperties
 			}
 		>

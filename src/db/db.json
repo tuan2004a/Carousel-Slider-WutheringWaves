@@ -1,18 +1,26 @@
 {
-    "resonators": [
+	"resonators": [
 		{
 			"id": 1,
 			"name": "Jinhsi",
 			"image": "/img/Resonators/Jinhsi.png",
 			"bgColor": "bg-linear-to-b from-[#48a0a8] to-[#e3e1e1]",
+			"borderColor": {
+				"after": "#48a0a8",
+				"before": "#e3e1e1"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#48a0a8] from-25% to-white to-50% bg-clip-text",
-			"class":""
+			"class": ""
 		},
 		{
 			"id": 2,
 			"name": "Augusta",
 			"image": "/img/Resonators/Augusta.png",
 			"bgColor": "bg-linear-to-b from-[#de4a27] to-[#f4f0ee]",
+			"borderColor": {
+				"after": "#de4a27",
+				"before": "#f4f0ee"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text",
 			"class": ""
 		},
@@ -21,6 +29,10 @@
 			"name": "Cantarella",
 			"image": "/img/Resonators/Cantarella.png",
 			"bgColor": "bg-linear-to-b from-[#5a53be] to-[#7475cf]",
+			"borderColor": {
+				"after": "#7475cf",
+				"before": "#5a53be"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#5a53be] from-25% to-white to-50% bg-clip-text",
 			"class": "-translate-x-7"
 		},
@@ -29,6 +41,10 @@
 			"name": "Ciaccona",
 			"image": "/img/Resonators/Ciaccona.png",
 			"bgColor": "bg-linear-to-b from-[#699d9d] to-[#eb6f7c] ",
+			"borderColor": {
+				"after": "#eb6f7c",
+				"before": "#699d9d"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#90b9bc] from-25% to-white to-50% bg-clip-text",
 			"class": "-translate-x-7"
 		},
@@ -37,6 +53,10 @@
 			"name": "Changli",
 			"image": "/img/Resonators/Changli.png",
 			"bgColor": "bg-linear-to-b from-[#da6c58] to-[#e4dcd7]",
+			"borderColor": {
+				"after": "#da6c58",
+				"before": "#e4dcd7"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#da6c58] from-25% to-white to-50% bg-clip-text",
 			"class": ""
 		},
@@ -45,6 +65,10 @@
 			"name": "Iuno",
 			"image": "/img/Resonators/Iuno.png",
 			"bgColor": "bg-linear-to-b from-[#38486f] to-[#a3b9d8]",
+			"borderColor": {
+				"after": "#38486f",
+				"before": "#a3b9d8"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#4971b2] from-25% to-white to-50% bg-clip-text",
 			"class": "-translate-y-13!"
 		},
@@ -53,6 +77,10 @@
 			"name": "Jianxin",
 			"image": "/img/Resonators/Jianxin.png",
 			"bgColor": "bg-linear-to-b from-[#a5ccc2] to-[#f6f4f0]",
+			"borderColor": {
+				"after": "#f6f4f0",
+				"before": "#a5ccc2"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#a5ccc2] from-25% to-white to-50% bg-clip-text",
 			"class": "*:scale-145!"
 		},
@@ -61,6 +89,10 @@
 			"name": "Lupa",
 			"image": "/img/Resonators/Lupa.png",
 			"bgColor": "bg-linear-to-b from-[#de93a0] to-[#cd4f56]",
+			"borderColor": {
+				"after": "#de93a0",
+				"before": "#cd4f56"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#de93a0] from-25% to-white to-50% bg-clip-text",
 			"class": "*:scale-180! -translate-y-17! -translate-x-3"
 		},
@@ -69,6 +101,10 @@
 			"name": "Phrolova",
 			"image": "/img/Resonators/Phrolova.png",
 			"bgColor": "bg-linear-to-b from-[#b02b35] to-[#ee344c]",
+			"borderColor": {
+				"after": "#ee344c",
+				"before": "#b02b35"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#b02b35] from-25% to-white to-50% bg-clip-text",
 			"class": ""
 		},
@@ -77,6 +113,10 @@
 			"name": "Shorekeeper",
 			"image": "/img/Resonators/Shorekeeper.png",
 			"bgColor": "bg-linear-to-b from-[#223865] to-[#5c8fb5]",
+			"borderColor": {
+				"after": "#223865",
+				"before": "#5c8fb5"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#5c8fb5] from-25% to-white to-50% bg-clip-text",
 			"class": "-translate-x-20 -translate-y-20! "
 		},
@@ -85,6 +125,10 @@
 			"name": "Yinlin",
 			"image": "/img/Resonators/Yinlin.png",
 			"bgColor": "bg-linear-to-b from-[#ba464b] to-[#652a32]",
+			"borderColor": {
+				"after": "#652a32",
+				"before": "#ba464b"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#ba464b] from-25% to-white to-50% bg-clip-text",
 			"class": "*:scale-125! -translate-y-17!"
 		},
@@ -93,6 +137,10 @@
 			"name": "Zani",
 			"image": "/img/Resonators/Zani.png",
 			"bgColor": "bg-linear-to-b from-[#5c626e] to-[#cacdd7]",
+			"borderColor": {
+				"after": "#5c626e",
+				"before": "#cacdd7"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#5c626e] from-25% to-white to-50% bg-clip-text",
 			"class": "*:scale-135! -translate-y-15! -translate-x-3"
 		},
@@ -101,6 +149,10 @@
 			"name": "Zhezhi",
 			"image": "/img/Resonators/Zhezhi.png",
 			"bgColor": "bg-linear-to-b from-[#74b4bc] to-[#a58483]",
+			"borderColor": {
+				"after": "#74b4bc",
+				"before": "#a58483"
+			},
 			"textColor": "text-transparent bg-linear-to-t from-[#74b4bc] from-25% to-white to-50% bg-clip-text",
 			"class": "*:scale-140! -translate-y-30! -translate-x-3"
 		}

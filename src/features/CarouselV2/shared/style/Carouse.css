@@ -120,14 +120,10 @@
 /* ============================================
    Active Item Border Effect (Multi-layer Border)
    ============================================ */
-
-.item::before {
-	content: '';
-	@apply absolute -top-1 left-2 size-[98%] border rounded-2xl pointer-events-none -z-10;
-	border-color: var(--border-before);
-}
-.item::after {
-	content: '';
-	@apply absolute -top-1.75 left-2.5 size-[99%] border rounded-[20px] pointer-events-none -z-10;
-	border-color: var(--border-after);
+.active .item:hover .titleDark,
+.active .item:hover .bgDark,
+.active .item:hover .bgColor,
+.active .item:hover .bgTheme {
+	@apply transition-all duration-300 ease-in-out;
+	transform: perspective(1200px) translateY(7%) rotateX(40deg);
 }

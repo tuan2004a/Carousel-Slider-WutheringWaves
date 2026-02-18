@@ -103,6 +103,11 @@ src/
 ---
 ## Video Demo
 
+Trình duyệt của bạn không hỗ trợ video tag.
+<video width="100%" controls>
+  <source src="./public/carousel-slider-ww.mp4" type="video/mp4">
+</video>
+
 ---
 
 ## Lưu ý khi phát triển
