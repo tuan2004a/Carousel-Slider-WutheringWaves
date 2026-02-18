@@ -103,7 +103,7 @@ src/
 ---
 ## Preview Video
 
-https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0
+![video alt](https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0)
 ---
 
 ## Lưu ý khi phát triển
