@@ -101,10 +101,10 @@ src/
     └── ...                     # Các modules khác
 ```
 ---
-## Video Demo
+## Preview Video
 
 Trình duyệt của bạn không hỗ trợ video tag.
-<video width="100%" controls>
+<video width="100%" height="auto" controls autoplay loop muted playsinline poster="thumbnail.jpg">
   <source src="./public/carousel-slider-ww.mp4" type="video/mp4">
 </video>
 
