@@ -103,10 +103,8 @@ src/
 ---
 ## Preview Video
 
-Trình duyệt của bạn không hỗ trợ video tag.
-<video width="100%" height="auto" controls autoplay loop muted playsinline poster="thumbnail.jpg">
-  <source src="./public/carousel-slider-ww.mp4" type="video/mp4">
-</video>
+<!-- [Xem video demo](./public/carousel-slider-ww.mp4) -->
+[text](https://github.com/user-attachments/assets/dea580c9-d954-4019-902b-fcd11a131b35)
 
 ---
 
