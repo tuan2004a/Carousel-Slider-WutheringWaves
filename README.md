@@ -103,8 +103,6 @@ src/
 ---
 ## Preview Video
 
-<!-- [Xem video demo](./public/carousel-slider-ww.mp4) -->
-[text](https://github.com/user-attachments/assets/dea580c9-d954-4019-902b-fcd11a131b35)
 https://github.com/user-attachments/assets/914a4982-d38c-4146-b792-2f8e8e9d88c0
 ---
 
