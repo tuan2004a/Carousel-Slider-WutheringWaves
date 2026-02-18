@@ -103,7 +103,7 @@ src/
 ---
 ## Preview Video
 
-![video alt](<video controls src="https://github.com/tuan2004a/Carousel-Slider-WutheringWaves/blob/main/public/carousel-slider-ww.mp4" title="Title"></video>)
+![video alt](https://github.com/tuan2004a/Carousel-Slider-WutheringWaves/blob/main/public/carousel-slider-ww.mp4)
 ---
 
 ## Lưu ý khi phát triển
